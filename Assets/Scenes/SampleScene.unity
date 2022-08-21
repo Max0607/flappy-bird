@@ -373,6 +373,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da4c3785dafaecb41beb56bfe5ad5fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  URL: https://unitywebrequest-restapi.herokuapp.com
+  NameText:
+  - {fileID: 1367037418}
+  - {fileID: 409591186}
+  - {fileID: 77633836}
+  - {fileID: 1876374226}
+  - {fileID: 101239491}
+  ScoreText:
+  - {fileID: 473996111}
+  - {fileID: 1902004056}
+  - {fileID: 818220489}
+  - {fileID: 497169442}
+  - {fileID: 419813360}
+  ScorePanel: {fileID: 1856048382}
 --- !u!1 &278984678
 GameObject:
   m_ObjectHideFlags: 0
@@ -1245,8 +1259,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1521267448}
-        m_TargetAssemblyTypeName: HttpManager, Assembly-CSharp
+      - m_Target: {fileID: 113116209}
+        m_TargetAssemblyTypeName: Score, Assembly-CSharp
         m_MethodName: ClickGetScores
         m_Mode: 1
         m_Arguments:
@@ -1711,7 +1725,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1521267447}
   - component: {fileID: 1521267446}
-  - component: {fileID: 1521267448}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -1746,33 +1759,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1521267448
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1521267445}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e968c4b65d0088c44ae8df8de507ed5d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  URL: https://my-json-server.typicode.com/Max0607/API-Falsa-SID
-  NameText:
-  - {fileID: 1367037418}
-  - {fileID: 409591186}
-  - {fileID: 77633836}
-  - {fileID: 1876374226}
-  - {fileID: 101239491}
-  ScoreText:
-  - {fileID: 473996111}
-  - {fileID: 1902004056}
-  - {fileID: 818220489}
-  - {fileID: 497169442}
-  - {fileID: 419813360}
-  PipeAnim: {fileID: 0}
-  ScorePanel: {fileID: 1856048382}
 --- !u!1 &1572638083
 GameObject:
   m_ObjectHideFlags: 0
@@ -1856,8 +1842,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1521267448}
-        m_TargetAssemblyTypeName: HttpManager, Assembly-CSharp
+      - m_Target: {fileID: 113116209}
+        m_TargetAssemblyTypeName: Score, Assembly-CSharp
         m_MethodName: ExitPipe
         m_Mode: 1
         m_Arguments:
